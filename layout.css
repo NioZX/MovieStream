@@ -1,0 +1,182 @@
+@font-face { 
+    font-family: Delicious; src: url('fontes/dealerplate california.ttf'); 
+}
+
+@font-face {
+    font-family: Layt; src: url('fontes/Cocogoose Pro Light-trial.ttf');
+}
+
+@font-face {
+    font-family: Calme; src: url('fontes/KeepCalm-Medium.ttf');
+}
+
+@font-face {
+    font-family: Crush; src: url('fontes/Crash-Regular_Version_1.ttf');
+}
+
+@font-face {
+    font-family: Xing; src: url('fontes/Easy 3D.ttf');
+}
+
+header {
+    background-color: #e5383b;
+    font-family: Delicious;
+    text-shadow: 9px 7px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header-cell:hover {
+     color: rgba(255,255,255, 1);
+    -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+    transform: scale (1.02);
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 50%;
+    outline: 10px black;
+}
+
+body {
+    background-image: linear-gradient( 178.9deg,  rgba(0,1,44,0.6) 30.5%, rgba(199,0,0,0.6) 131.3% ), url(img/preto.jpg);
+    letter-spacing: 0.2em;
+}
+.container {
+    color: white;
+}
+
+.nsei {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.header {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.logo {
+    display: table-cell;
+    width: 33%;
+    float: left;
+    vertical-align: middle;
+}
+
+.header-cell {
+    width: 33%;
+    display: table-cell;
+    float: left;
+    vertical-align: middle;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.cellright {
+    width: auto;
+    text-align: left;
+    float: right;
+    margin-right: 30px;
+}
+
+.table {
+    display: table;
+}
+
+.cell {
+    width: 500px;
+    display: table-cell;
+    float: left;
+    transition: transform 1s;
+}
+
+.cell:hover {
+    -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 9px 7px 5px rgba(0, 0, 0, 0);
+}
+#movimg {
+    width: 350px;
+    height: 350px;
+    box-shadow: 9px 7px 5px rgba(0, 0, 0, 0.77);
+    transition: .6s;
+}
+
+.text {
+    margin: 0px 0px 0px 35px;
+    width: 60%;
+}
+
+.movright {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.42), rgba(117, 19, 93, 0.53)), url('img/demoio.jpg');
+    margin: 10px 0px;
+    background-size: 100%;
+    outline: 10px solid rgba(50,50,50,.5);
+    outline-style: outset;
+    padding: 50px;
+}
+
+.movright .text {
+    float: right;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.botata {
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: Calme;
+    background-color: rgba(0,0,0,.3);
+    padding: 10px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+p:hover {
+    background-color: rgba(0,0,0,.6);
+    -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+    transform: scale (1.02);
+}
+
+
+h1 {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+    color: #161a1d;
+    padding: 10px;
+    margin-right: 0px;
+    font-family: Layt;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+h1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+    transform: scale (1.1);
+    box-shadow: 9px 7px 5px rgba(0, 0, 0, 0);
+}
+          
+.circlo {
+border-radius: 10px;
+}
+
+.crianca {
+    height: 150px;
+    background-image: linear-gradient( 89.8deg,  rgba(204,156,223,0.5) 0.3%, rgba(155,219,245,0.5) 20.4%, rgba(245,183,208,0.5) 40.2%, rgba(250,186,98,0.5) 62.9%, rgba(234,238,240,0.5) 81.9%, rgba(250,245,171,0.5) 99.2% ), url(img/crianca.jpg);
+    background-size: 100%;
+    text-align: center;
+    box-shadow: 9px 15px 5px rgba(0, 0, 0, 0.6);
+}
